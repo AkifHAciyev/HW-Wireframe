@@ -22,15 +22,20 @@ footer {
 
 section {
 	display: block;
-	float: left;
+	/* float: left; */
 	width: 495px;
 	height: 267px;
 	overflow: hidden;
 }
 
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
 aside {
 	display: block;
-	float: right;
+	/* float: right; */
 	width: 40%;
 	height: 267px;
 	overflow: hidden;
@@ -53,5 +58,5 @@ p {
 }
 
 .clear {
-	clear: both;
+	/* clear: both; */
 }
